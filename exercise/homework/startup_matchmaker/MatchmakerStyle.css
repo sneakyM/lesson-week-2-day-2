@@ -1,0 +1,129 @@
+/* Matchmaker Intro heder */
+.Header{
+  background-color: rgb(0,0,0);
+  color: rgb(252, 245, 73);
+  padding: 1px 20px;
+}
+.IntroLists{
+  background-color: rgb(0,0,0);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Oswald', sans-serif;
+  padding: 1px 20px 1px 1px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(252, 245, 73);
+
+}
+li{
+  list-style: none;
+  display:inline;
+  padding: 5px;
+}
+.liBold{
+  font-weight: bold;
+}
+/* Matchmaker Slogan*/
+.Slogan{
+  background-color: rgb(198, 198, 198);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1px;
+}
+.sStrickThrough{
+  text-decoration: line-through;
+  color: rgb(152,152,152);
+}
+.sUnderline{
+  text-decoration: rgb(255, 253, 56) underline;
+}
+/*Matchmaking Main Profile Request*/
+.Main{
+  background-image: url("coworking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.Profile{
+  background-color: rgba(255, 255, 255, .7);
+  width: 200px;
+  height: 220px;
+  text-align: left;
+  padding: 20px;
+  box-shadow:0 0 10px black;
+  overflow: scroll;
+  text-align: center;
+}
+
+.Profile p{
+      text-align: left;
+}
+
+.Profile h2 {
+      text-align: left;
+      margin-top: 0;
+}
+.cPROFILE{
+  font-size: 12px;
+  font-weight: bold;
+  background-color: rgb(252, 245, 73);
+  padding: 10px 10px;
+  border-style: hidden;
+  border-radius: 5px;
+  border-bottom-style: groove;
+  border-bottom-color: rgb(201,195,27)
+  display:block;
+  width: 70%;
+
+}
+/* Matchmaking 3 links below*/
+.Links{
+  display: flex;
+  justify-content: space-between;
+}
+.lSignup{
+  margin: 10px;
+  padding: 10px;
+}
+.lDevelopers{
+  margin: 10px;
+  padding: 10px;
+  border-left-style:outset;
+  border-right-style:inset;
+  border-left-width: thin;
+  border-right-width: thin;
+  border-color: rgb(218,218,218)
+
+}
+.lDesigners{
+  margin: 10px;
+  padding: 10px;
+}
+.LinksButton{
+  background-color: rgb(198, 198, 198);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 10px;
+  border-style: hidden;
+  border-radius: 5px;
+  border-bottom-style: groove;
+  border-bottom-color: rgb(150,150,150);
+  display:block;
+  width: 100%;
+}
+/*footer*/
+footer{
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Links{
+  display: block;
+  }
+}
